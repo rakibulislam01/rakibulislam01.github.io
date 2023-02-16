@@ -1,0 +1,51 @@
+.project {
+    margin: 50px auto;
+    /*max-width: 800px;*/
+    padding: 30px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description, .image {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .description, .image {
+    width: 100%;
+  }
+}
+.project h2 {
+    margin-top: 0;
+    font-size: 36px;
+}
+.project img {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.project p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.project ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.project li {
+    margin-bottom: 10px;
+}
+.project li strong {
+    display: inline-block;
+    min-width: 120px;
+}
+
+.image-container {
+    max-width: 800px;
+    display: block;
+    margin-right: 10px;
+    float: right;
+}
